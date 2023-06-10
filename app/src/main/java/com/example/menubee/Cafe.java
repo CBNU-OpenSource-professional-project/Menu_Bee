@@ -47,20 +47,9 @@ public class Cafe extends AppCompatActivity {
         addorderbtn = (AppCompatButton) findViewById(R.id.addorderbtn);
         menuView.setBackgroundColor(Color.parseColor("#000000"));
 
+        //result 배열 예시
         String[] result1 = {"에스프레소", "아메리카노", "카페 라떼", "바닐라라떼", "카페 모카", "캐모마일 차", "휘낭시에", "딸기케이크", "쿠키", "스콘", "파운드케이크"};
 
-        /*ArrayList<String> menuList = new ArrayList<String>();
-        menuList.add("에스프레소");
-        menuList.add("아메리카노");
-        menuList.add("카페 라떼");
-        menuList.add("바닐라라떼");
-        menuList.add("카페 모카");
-        menuList.add("캐모마일 차");
-        menuList.add("휘낭시에");
-        menuList.add("딸기케이크");
-        menuList.add("쿠키");
-        menuList.add("스콘");
-        menuList.add("파운드케이크"); */
         ArrayList<TextView> menuLists = new ArrayList<TextView>();
         ArrayList<Result> resultList = new ArrayList<Result>();
 

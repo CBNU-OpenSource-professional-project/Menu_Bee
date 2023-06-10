@@ -19,15 +19,8 @@ public class Tip extends AppCompatActivity {
         Intent intent = getIntent();
         CheckBox neverview = findViewById(R.id.neverview);
         closeTip = findViewById(R.id.closetip);
-        closeTip2 = findViewById(R.id.closetip2);
+
         closeTip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), AdditionalOrder.class);
-                startActivity(intent);
-            }
-        });
-        closeTip2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Cafe.class);

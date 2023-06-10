@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Menubee">
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +26,8 @@
         </activity>
         <activity android:name=".Tip" android:label="tip"/>
         <activity android:name=".Choice_mode" android:label="choice_mode"/>
+        <activity android:name=".AdditionalOrder" android:label="additionalorder"/>
+        <activity android:name=".Cafe" android:label="cafe"/>
     </application>
 
 </manifest>
